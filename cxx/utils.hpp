@@ -15,9 +15,6 @@
 #define UTILS_HEADER
 
 #define RM(x)  \
-               \
-  size -= (x); \
-               \
   data += (x);
 
 static inline uint32_t U32_AT(const void* data) {
